@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Cores principais */
+    --card-color-red: #E3646E;
+    --card-color-purple: #BB72E9;
+    --card-color-blue: #3996DB;
+    --card-color-green: #82BC4F;
+    --card-color-yellow: #EABD5F;
+
+    /* Base-colors */
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
+    /* Fontes */
+    --font-family-asap: 'Asap', 'sans-serif';
+    --font-family-inconsolata: 'Inconsolata', 'sans-serif';
+    --font-family-maven: 'Maven Pro', 'sans-serif';
+
+    /* Asap — títulos */
+    --title-asap-lg: 700 56px/120% var(--font-family-asap);
+    --title-asap-md: 700 24px/120% var(--font-family-asap);
+    --title-asap-sm: 700 16px/120% var(--font-family-asap);
+
+    /* Inconsolata — subtítulo */
+    --subtitle: 400 20px/120% var(--font-family-inconsolata);
+
+    /* Maven Pro — texto */
+    --text-maven-md: 400 16px/140% var(--font-family-maven);
+    --text-maven-sm: 400 14px/140% var(--font-family-maven);
+
+}
+
+body {
+    font: var(--text-maven-sm);
+}
+
+h1 {
+    font: var(--title-asap-lg);
+}
