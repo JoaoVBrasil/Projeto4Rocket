@@ -15,10 +15,41 @@ header {
     height: 447px;
     margin-block: 120px 183px;
 
+    #tags ul {
+        margin-top: 80px;
+        margin-bottom: 94px;
 
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 16px;
+
+        font: var(--text-maven-md);
+        color: var(--gray-200);
+
+        li {
+            display: flex;
+            align-items: center;
+
+            gap: 8px;
+            background-color: var(--gray-400);
+            padding: 8px 16px;
+            border-radius: 20px;
+
+        }
+
+        li img {
+            padding: 0;
+            margin: 0;
+            border-radius: 0;
+        }
+    }
 }
 
 #apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 327px;
     width: 680px;
     margin-bottom: 80px;
@@ -55,3 +86,4 @@ header {
     }
 
 }
+
