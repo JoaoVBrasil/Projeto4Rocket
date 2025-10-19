@@ -9,47 +9,47 @@
 
     #setas img {
         margin-bottom: 57px;
+        margin-top: 94px;
     }
 
-}
-
-
-header {
-    display: flex;
-    justify-content: center;
-    width: 1040px;
-    height: 447px;
-    margin-block: 120px 183px;
-
-    #tags ul {
-        margin-top: 80px;
-        margin-bottom: 94px;
-
+    header {
         display: flex;
         justify-content: center;
-        list-style: none;
-        gap: 16px;
+        width: 1040px;
+        height: 447px;
+        margin-top: 120px;
 
-        font: var(--text-maven-md);
-        color: var(--gray-200);
+        #tags ul {
+            margin-top: 80px;
 
-        li {
+
             display: flex;
-            align-items: center;
+            justify-content: center;
+            list-style: none;
+            gap: 16px;
 
-            gap: 8px;
-            background-color: var(--gray-400);
-            padding: 8px 16px;
-            border-radius: 20px;
+            font: var(--text-maven-md);
+            color: var(--gray-200);
 
-        }
+            li {
+                display: flex;
+                align-items: center;
 
-        li img {
-            padding: 0;
-            margin: 0;
-            border-radius: 0;
+                gap: 8px;
+                background-color: var(--gray-400);
+                padding: 8px 16px;
+                border-radius: 20px;
+
+            }
+
+            li img {
+                padding: 0;
+                margin: 0;
+                border-radius: 0;
+            }
         }
     }
+
 }
 
 #apresentacao {
@@ -91,4 +91,56 @@ header {
         text-align: center;
     }
 
+}
+
+.projects {
+    margin-bottom: 144px;
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 72px 56px;
+
+        p {
+            font: var(--subtitle);
+            color: var(--card-color-red);
+        }
+
+        h2 {
+            color: var(--gray-100);
+        }
+    }
+
+    #cards {
+        display: grid;
+        border: 1px solid red;
+        gap: 24px;
+        grid-template-columns: repeat(3, 1fr);
+
+        figure {
+            border-radius: 12px;
+            width: 330px;
+            height: 280px;
+            background-color: var(--gray-400);
+            padding: 12px;
+        }
+
+        img {
+            border-radius: 8px;
+            height: 156px;
+            width: 306px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: var(--gray-100);
+            margin-bottom: 8px;
+        }
+
+        p {
+            font: var(--text-maven-sm);
+            color: var(--gray-200);
+        }
+
+    }
 }
