@@ -1,9 +1,0 @@
-.grid {
-    display: grid;
-}
-
-.grid-template-colum {
-    grid-template-columns: repeat(3,1fr);
-    
-}
-
